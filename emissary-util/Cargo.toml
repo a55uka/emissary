@@ -13,12 +13,12 @@ categories.workspace = true
 [dependencies]
 emissary-core = { path = "../emissary-core", version = "0.2.0", features = ["std"] }
 flate2 = { workspace = true }
-metrics = { version = "0.24.2", optional = true }
-metrics-exporter-prometheus = { version = "0.17.2", optional = true }
-pem = { version = "3.0.5", default-features = false }
-rsa = { version = "0.9.8", features = ["sha2"] }
-x509-parser = "0.17.0"
-zip = { version = "4.2.0", default-features = false, features = ["deflate-flate2-zlib"] }
+metrics = { version = "0.24", optional = true }
+metrics-exporter-prometheus = { version = "0.17", optional = true }
+pem = { version = "3.0", default-features = false }
+rsa = { version = "0.9", features = ["sha2"] }
+x509-parser = "0.17"
+zip = { version = "4.5", default-features = false, features = ["deflate-flate2-zlib"] }
 
 # workspace dependencies
 anyhow = { workspace = true }
